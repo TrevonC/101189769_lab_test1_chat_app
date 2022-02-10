@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer src="client.js"></script>
+    <title>ChatApp</title>
+    <style></style>
+
+</head>
+<body>
+    <div>
+        <header class="">
+            <h1><i class=""></i> ChatApp</h1>
+        </header>
+        <main class="">
+            <form action="chat.html">
+                <div class="form-control">
+                    <label for="username">Username</label>
+                    <input
+                        type="text"
+                        name="username"
+                        id="username"
+                        placeholder="Enter username"
+                        required
+                    />
+                </div>
+                <div class="form-control">
+                    <label for="room">Room</label>
+                    <select name="room" id="room">
+                        <option value="News">News</option>
+                        <option value="Movies">Movies</option>
+                        <option value="Food">Food</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">Join Room</button>
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>
+
+
